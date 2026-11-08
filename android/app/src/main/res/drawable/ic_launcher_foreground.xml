@@ -1,0 +1,14 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp" android:viewportWidth="108" android:viewportHeight="108">
+    <!-- Same glyph as linux/data/io.github.androidconnect.svg, scaled into the adaptive-icon safe zone. -->
+    <group android:scaleX="0.58" android:scaleY="0.58" android:translateX="17.46" android:translateY="17.46">
+        <path android:fillColor="#FFFFFF" android:fillAlpha="0.28" android:pathData="M22,42h44v28h-44z" />
+        <path android:fillColor="#FFFFFF" android:fillAlpha="0.28" android:pathData="M87,46h24v36h-24z" />
+        <path android:fillColor="#FFFFFF" android:fillType="evenOdd"
+            android:pathData="M21,36h46a5,5 0,0 1,5 5v30a5,5 0,0 1,-5 5H21a5,5 0,0 1,-5 -5V41a5,5 0,0 1,5 -5zM22,42v28h44V42z" />
+        <path android:fillColor="#FFFFFF"
+            android:pathData="M13.5,80h61a3.5,3.5 0,0 1,0 7h-61a3.5,3.5 0,0 1,0 -7z" />
+        <path android:fillColor="#FFFFFF" android:fillType="evenOdd"
+            android:pathData="M87,40h24a5,5 0,0 1,5 5v40a5,5 0,0 1,-5 5H87a5,5 0,0 1,-5 -5V45a5,5 0,0 1,5 -5zM87,46v36h24V46z" />
+    </group>
+</vector>

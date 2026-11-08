@@ -1,0 +1,17 @@
+Package: androidconnect
+Version: @VERSION@
+Architecture: all
+Section: utils
+Priority: optional
+Maintainer: Android Connect <petr6505@gmail.com>
+Installed-Size: @SIZE@
+Depends: python3 (>= 3.10), python3-gi, python3-cryptography, gir1.2-glib-2.0, gir1.2-gtk-4.0, gir1.2-adw-1 (>= 1.5), gir1.2-gstreamer-1.0, gir1.2-gst-plugins-base-1.0, gstreamer1.0-plugins-base, gstreamer1.0-pipewire, gstreamer1.0-plugins-extra | gstreamer1.0-plugins-bad | gstreamer1.0-plugins-ugly, avahi-daemon, iproute2, gnome-shell, systemd
+Recommends: gnome-control-center
+Description: Use an Android tablet as a second screen over Wi-Fi
+ Android Connect turns a paired Android tablet into an extra monitor for
+ GNOME on Wayland. The tablet appears in Settings > Displays like any other
+ screen; the picture is hardware-encoded H.264 sent over TLS 1.3, and touch,
+ pen and mouse input on the tablet controls the laptop.
+ .
+ A background service starts at login and keeps tablets connected after the
+ window is closed. Install the companion app (AndroidConnect.apk) on the tablet.

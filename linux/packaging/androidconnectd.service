@@ -1,0 +1,9 @@
+[Unit]
+Description=Android Connect (tablet as a second screen)
+After=graphical-session.target pipewire.service
+PartOf=graphical-session.target
+
+[Service]
+ExecStart=/usr/bin/androidconnectd
+Restart=always
+RestartSec=3

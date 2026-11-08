@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Android Connect service
+Comment=Lets your paired tablets connect as a second screen
+Exec=systemctl --user start androidconnectd.service
+Icon=io.github.androidconnect
+NoDisplay=true
+OnlyShowIn=GNOME;
+X-GNOME-Autostart-enabled=true

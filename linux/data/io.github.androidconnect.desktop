@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Android Connect
+Comment=Use your Android tablet as a second screen
+Exec=androidconnect
+Icon=io.github.androidconnect
+Terminal=false
+Categories=Utility;Settings;
+Keywords=tablet;android;display;monitor;screen;second;extend;
+StartupNotify=true

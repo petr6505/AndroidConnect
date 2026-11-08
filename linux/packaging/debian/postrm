@@ -1,0 +1,12 @@
+#!/bin/sh
+set -e
+
+if [ "$1" = "remove" ] || [ "$1" = "purge" ]; then
+    gtk-update-icon-cache -q -t -f /usr/share/icons/hicolor 2>/dev/null || true
+    update-desktop-database -q /usr/share/applications 2>/dev/null || true
+    for uid in $(loginctl list-users --no-legend 2>/dev/null | awk '{print $1}'); do
+        user=$(id -nu "$uid" 2>/dev/null) || continue
+        systemctl --user -M "$user@" daemon-reload >/dev/null 2>&1 || true
+    done
+fi
+exit 0
